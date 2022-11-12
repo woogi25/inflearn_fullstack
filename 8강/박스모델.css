@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 기본 셋팅 */
+
+/* box-sizing 설정값
+content-box : 콘텐트 영역을 크기를 기준으로
+border-box : 테두리를 크기를 기준
+initial : 기본값으로 설정
+inherit : 부모 요소의 속성값을 상속받음 
+*/
+
+
+div {
+    border : 1px solid black;
+    padding: 10px;
+    margin: 30px;
+    /* 전체 : 10px, 상하 / 좌우 : 10px 20px / 상 / 하 / 좌 / 우 : 10px 20px 30px 40px */
+    width: 50%;
+    max-width:  300px;
+    min-width: 50px;
+    height: 100px;
+}
