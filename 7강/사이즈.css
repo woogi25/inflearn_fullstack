@@ -1,0 +1,16 @@
+html {
+    font-size: 10px;
+}
+
+p {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.rems {
+    font-size: 5rem;
+}
+
+.ems li {
+    font-size: 1.2em;
+}
