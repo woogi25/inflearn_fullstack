@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#target {
+    background-color: yellow;
+    position: sticky;
+    left: 10px;
+    top :20px;
+    /* static, relative */
+    /* absolute : relative 속성을 가진 가장 가까운 부모 기준 이동 */
+    /* fixed : 고정 */
+    /* 스크롤 내려도 그 위치에 맞춰 고정 */
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#target2 {
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
