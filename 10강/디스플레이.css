@@ -1,0 +1,17 @@
+div {
+    width:100px;
+    display: inline;
+}
+
+span {
+    width: 100px;
+    display: block;
+}
+
+p {
+    width: 100px;
+    display: inline-block;
+}
+
+/* inline 엘리먼트처럼 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치되지만, 
+block 엘리먼트처럼 width와 height 속성 지정 및 margin과 padding 속성의 상하 간격 지정이 가능 */
